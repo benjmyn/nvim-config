@@ -13,6 +13,8 @@ return {
   opts = {
     filesystem = {
       window = {
+		position = "left", -- Open on the right
+		width = 30, -- Set width of neotree tab
         mappings = {
           ['\\'] = 'close_window',
         },
