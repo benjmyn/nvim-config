@@ -11,6 +11,7 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+	close_if_last_window = true, -- Close if last window
     filesystem = {
       window = {
 		position = "left", -- Open on the right
