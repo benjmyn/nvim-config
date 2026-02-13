@@ -1,6 +1,9 @@
 -- General config --
 vim.opt.mouse = '' 
 
+-- Transparent background --
+vim.opt.termguicolors = false 
+
 -- Format options (fo-table) --
 vim.opt.formatoptions = 'j,c,,,q,l'
 
