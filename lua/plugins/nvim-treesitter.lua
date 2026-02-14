@@ -14,9 +14,13 @@ return {
 			  -- start on all buffers
 			  vim.treesitter.start()
 		  end,
-		  once = true,
+		  -- once = true,
 	  })
 	  require('nvim-treesitter').install({
+		  "lua",
+		  "vim",
+		  "vimdoc",
+		  "c",
 		  "c_sharp"
 	  })
   end,
