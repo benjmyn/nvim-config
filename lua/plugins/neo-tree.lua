@@ -12,7 +12,16 @@ return {
   },
   opts = {
 	close_if_last_window = true, -- Close if last window
-    filesystem = {
+      event_handlers = {
+      {
+        event = "neo_tree_buffer_enter",
+        handler = function()
+          vim.opt_local.number = true
+          vim.opt_local.relativenumber = true
+        end,
+      },
+    },
+  filesystem = {
 	  filtered_items = {
 		  visible = true,
 		  hide_dotfiles = false,
