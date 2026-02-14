@@ -21,7 +21,8 @@ return {
 		  "vim",
 		  "vimdoc",
 		  "c",
-		  "c_sharp"
+		  "c_sharp",
+		  "json"
 	  })
   end,
 }
