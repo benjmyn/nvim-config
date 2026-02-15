@@ -23,5 +23,7 @@ vim.opt.shiftwidth = 4
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
--- Splitting settings (:new) --
-
+-- Inline diagnostics --
+vim.diagnostic.config({
+	virtual_text = true,
+})
