@@ -12,7 +12,8 @@ return {
 		  pattern = "*",
 		  callback = function()
 			  -- start on all buffers
-			  vim.treesitter.start()
+			  -- vim.treesitter.start()
+			  pcall(vim.treesitter.start)
 		  end,
 		  -- once = true,
 	  })
