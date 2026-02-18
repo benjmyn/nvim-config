@@ -27,3 +27,6 @@ vim.opt.smartcase = true
 vim.diagnostic.config({
 	virtual_text = true,
 })
+
+-- Easy-off search highlighting --
+vim.keymap.set('n', '<Esc>', ':noh<CR><Esc>', { silent = true } )
